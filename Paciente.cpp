@@ -10,5 +10,4 @@ void Paciente::imprimirDatos(){
   Persona::imprimirDatos();
   cout << " Codigo paciente: " << getCodigoPaciente() <<endl;
   cout << "<---------------------------->" << endl;
-
 }

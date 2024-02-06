@@ -20,6 +20,7 @@ class Paciente : public Persona{
 
     // Metodos
     void imprimirDatos();
+    virtual void costoConsulta();
 
 };
 
