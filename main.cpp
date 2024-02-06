@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Medico.h"
+#include "Paciente.h"
 int main() {
 
-  Persona* medico =  new Medico("213123","Elkin tovar", 23, "121212");
+  Persona* medico =  new Paciente("213123","Elkin tovar", 23, "121212");
   medico->imprimirDatos();
 }
